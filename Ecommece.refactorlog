@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6121376f-ef66-4bc0-8e2b-b870aaba5264" ChangeDateTime="02/19/2025 00:11:43">
+    <Property Name="ElementName" Value="[dbo].[Fact_Ordens].[Custumer_Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fact_Ordens]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Customer_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="acd2a2a2-22c7-450e-8e2f-defe23cc02ef" ChangeDateTime="02/19/2025 02:33:37">
+    <Property Name="ElementName" Value="[dbo].[Dim_Clientes].[Addition]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_Clientes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Additionals" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="314f24cf-fcb4-4c29-b40c-e157e97cfe47" ChangeDateTime="02/19/2025 02:56:32">
+    <Property Name="ElementName" Value="[dbo].[FK_Fact_Ordens_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Fact_Ordens]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Fact_Ordens_Dim_Clientes]" />
+  </Operation>
+</Operations>
